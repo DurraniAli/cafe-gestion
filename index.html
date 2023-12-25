@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="an">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestione CAFE</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="afficher_produit()">
+    <section class="lines">
+        <div class="dv_left">
+            <div class="menu" id="items"></div>
+        </div>
+        <div class="dv_right">
+            <div class="cart">
+                <h2>TOTAL</h2>
+                <table id="my_table"></table>
+                <p>Total:<span id="total_facture">0.00</span> dh</p>
+                <button class="checkout" onclick="calculateTotalAndAlert()">Checkout</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html> 
+
+
+
+
+
+

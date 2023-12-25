@@ -1,0 +1,137 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(228, 143, 228);
+}
+
+header {
+    background-color: #4d3303;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.lines {
+    display: flex;
+    justify-content: space-around;
+}
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.product-image {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.product-image  img {
+    width: 150px;
+    height: 120px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.product-image :hover {
+    transform: scale(1.05);
+}
+
+.product-image :hover img {
+    transform: scale(1.1);
+}
+
+.cart {
+    border: 1px solid #ccc;
+    padding: 22px;
+    margin: 3px;
+    width: 216px;
+    height: 300px;
+    border-radius: 15px;
+    float: right;
+    background: #f5f5f5;
+}
+
+#my_table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#my_table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    height: 90PX;
+}
+
+#my_table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#my_table tr:hover {
+    background-color: #ddd;
+}
+
+.checkout {
+    cursor: pointer;
+    background-color: rgb(233, 107, 233);
+    text-align: center;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+    height: 70PX;
+}
+
+
+
+ .product-image {
+    width: 150px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.dv_left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.dv_right {
+    width: 300px; 
+    flex-direction: column;
+    padding-top: 20px;
+    display: flex;
+} 
+.shearch_bar{
+    
+    height: 35px;
+    width: 40%;
+    margin: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
